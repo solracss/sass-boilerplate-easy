@@ -1,0 +1,25 @@
+@use "./base" as *;
+
+body {
+	display: grid;
+	place-items: center;
+	font-size: $fs-13;
+	font-weight: $fw-regular;
+	font-family: $ff-base;
+	color: $clr-primary-400;
+	background-color: $clr-primary-200;
+}
+
+.container {
+	width: min(100% - 3rem, 69.375rem);
+	margin-inline: auto;
+}
+
+.flex-flow {
+	display: flex;
+}
+
+.grid-flow {
+	display: grid;
+	gap: 1rem;
+}
